@@ -7,17 +7,17 @@ Sin cuentas · sin anuncios · sin suscripciones · sin internet
 
 ![Sin internet](https://img.shields.io/badge/permiso%20de%20internet-ninguno-2ea44f)
 ![Sin anuncios](https://img.shields.io/badge/anuncios-ninguno-2ea44f)
-![Hecho con ayuda de IA](https://img.shields.io/badge/hecho%20con-ayuda%20de%20IA-8957e5)
+![Hecho con ayuda de Claude](https://img.shields.io/badge/hecho%20con-ayuda%20de%20Claude-8957e5)
 ![Estado](https://img.shields.io/badge/estado-primeras%20versiones-f0883e)
 
-[Mis apps](#-mis-apps) · [Descargar](#%EF%B8%8F-descargar-e-instalar) · [Cómo las hago](#-cómo-las-hago-con-ia) · [Privacidad](#-privacidad) · [Fallos o ideas](#-si-algo-falla-o-tienes-una-idea)
+[Mis apps](#-mis-apps) · [Descargar](#%EF%B8%8F-descargar-e-instalar) · [Cómo las hago](#-cómo-las-hago-con-claude) · [Privacidad](#-privacidad) · [Fallos o ideas](#-si-algo-falla-o-tienes-una-idea)
 
 </div>
 
 ---
 
 ## 🙋 Quién soy
-Soy Byron y estoy aprendiendo a hacer apps para el móvil con ayuda de la inteligencia artificial. Empecé porque quería apps sencillas que funcionaran sin pedirme una cuenta, sin llenarme de anuncios y sin gastar datos. Como no las encontraba, las hago yo.
+Soy Byron y estoy aprendiendo a hacer apps para el móvil con ayuda de Claude. Empecé porque quería apps sencillas que funcionaran sin pedirme una cuenta, sin llenarme de anuncios y sin gastar datos. Como no las encontraba, las hago yo.
 
 Todavía **no soy un experto**. Lo que ves aquí son mis primeras versiones: las pruebo en mi móvil y las voy mejorando poco a poco.
 
@@ -78,10 +78,10 @@ Además, todas mis apps se firman con **la misma clave**. Si sabes usar `apksign
 
 `SHA-256 de mi certificado de firma:` _se publicará aquí con la primera release_
 
-## 🤖 Cómo las hago con IA
-Mis apps **están programadas con ayuda de inteligencia artificial** (Claude, de Anthropic). Prefiero decirlo claro desde el principio.
+## 🤖 Cómo las hago con Claude
+Mis apps **están programadas con ayuda de Claude**, un asistente de Anthropic. Prefiero decirlo claro desde el principio.
 
-| Lo que hago yo | Lo que hace la IA |
+| Lo que hago yo | Lo que hace Claude |
 |---|---|
 | Decido qué hace cada app y para quién es | Escribe el código de la app |
 | Elijo cómo debe verse y sentirse | Escribe los textos de los mazos de Cuéntame y las pruebas |
@@ -117,6 +117,6 @@ Cualquier idea o crítica amable me ayuda a mejorar.
 
 <div align="center">
 
-Ideado y dirigido por **Byron** · Programado con ayuda de IA (Claude, de Anthropic)
+Ideado y dirigido por **Byron** · Programado con ayuda de Claude (Anthropic)
 
 </div>
