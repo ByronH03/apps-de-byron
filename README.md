@@ -76,7 +76,17 @@ Si los códigos no coinciden, no la instales y vuelve a descargarla desde aquí.
 
 Además, todas mis apps se firman con **la misma clave**. Si sabes usar `apksigner`, puedes comprobar la firma con `apksigner verify --print-certs archivo.apk` y compararla con esta huella:
 
-`SHA-256 de mi certificado de firma:` _se publicará aquí con la primera release_
+**SHA-256 de mi certificado de firma:**
+
+```
+44:0B:06:39:82:7B:98:CE:62:27:2B:55:7D:E0:BA:60:45:39:AB:CE:A1:65:DF:26:1F:00:62:95:68:AC:32:D6
+```
+
+`apksigner` lo escribe en minúsculas y sin los dos puntos, así que lo verás como:
+
+```
+440b0639827b98ce62272b557de0ba604539abcea165df261f00629568ac32d6
+```
 
 ## 🤖 Cómo las hago con Claude
 Mis apps **están programadas con ayuda de Claude**, un asistente de Anthropic. Prefiero decirlo claro desde el principio.
