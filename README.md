@@ -62,32 +62,6 @@ Las descargas estarán en la sección **[Releases](../../releases)** de este rep
 4. Para actualizar, instala la versión nueva encima: se conservan tus datos.
 5. Para desinstalarla, como cualquier otra app.
 
-### ✅ Comprueba que la APK es la mía
-Cada *release* trae el **SHA-256** del archivo. Compáralo con el de tu descarga:
-
-```powershell
-Get-FileHash .\archivo.apk -Algorithm SHA256   # Windows (PowerShell)
-```
-```bash
-sha256sum archivo.apk                          # Linux o macOS
-```
-
-Si los códigos no coinciden, no la instales y vuelve a descargarla desde aquí.
-
-Además, todas mis apps se firman con **la misma clave**. Si sabes usar `apksigner`, puedes comprobar la firma con `apksigner verify --print-certs archivo.apk` y compararla con esta huella:
-
-**SHA-256 de mi certificado de firma:**
-
-```
-44:0B:06:39:82:7B:98:CE:62:27:2B:55:7D:E0:BA:60:45:39:AB:CE:A1:65:DF:26:1F:00:62:95:68:AC:32:D6
-```
-
-`apksigner` lo escribe en minúsculas y sin los dos puntos, así que lo verás como:
-
-```
-440b0639827b98ce62272b557de0ba604539abcea165df261f00629568ac32d6
-```
-
 ## 🤖 Cómo las hago con Claude
 Mis apps **están programadas con ayuda de Claude**, un asistente de Anthropic. Prefiero decirlo claro desde el principio.
 
